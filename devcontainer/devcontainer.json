@@ -1,0 +1,7 @@
+{
+  "name": "SkyExo Panel",
+  "dockerFile": "Dockerfile",
+  "forwardPorts": [80, 8080, 3306],
+  "postCreateCommand": "bash scripts/setup.sh",
+  "remoteUser": "root"
+}
